@@ -346,6 +346,7 @@ end
 
 ----------------------------------------------------------------------------------------------------
 -- Register browser tab typist: Type URL of current tab of running browser in markdown format. i.e. [title](link)
+--[[
 hstype_keys = hstype_keys or {"alt", "V"}
 if string.len(hstype_keys[2]) > 0 then
     spoon.ModalMgr.supervisor:bind(hstype_keys[1], hstype_keys[2], "Type Browser Link", function()
@@ -360,6 +361,7 @@ if string.len(hstype_keys[2]) > 0 then
         end
     end)
 end
+]]--
 
 ----------------------------------------------------------------------------------------------------
 -- Register Hammerspoon console

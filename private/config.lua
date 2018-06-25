@@ -11,7 +11,7 @@ hspoon_list = {
     -- "HSaria2",
     "HSearch",
     -- "KSheet",
-    "SpeedMenu",
+    -- "SpeedMenu",
     -- "TimeFlow",
     -- "UnsplashZ",
     "WinWin",
@@ -19,7 +19,7 @@ hspoon_list = {
 
 -- appM environment keybindings. Bundle `id` is prefered, but application `name` will be ok.
 hsapp_list = {
-    {key = 'q', name = 'QQ'},
+    {key = 'q', name = 'Wechat'},
     {key = 'g', id = 'com.google.Chrome'},
     {key = 'r', name = 'Safari'},
     {key = 'b', name = 'Mail'},
@@ -29,7 +29,11 @@ hsapp_list = {
     {key = 'u', name = 'iTerm'},
     {key = 'e', name = 'Evernote'},
     {key = 'n', name = 'Finder'},
-    {key = 'k', name = 'Dash'},
+    {key = 'd', name = 'Dash'},
+    {key = 'm', name = 'Macvim'},
+    {key = 'i', name = 'IntelliJ IDEA'},
+    {key = 'p', name = 'Paw'},
+    {key = 'l', name = 'Lark'},
     {key = 'v', id = 'com.apple.ActivityMonitor'},
     {key = 'y', id = 'com.apple.systempreferences'},
 }
@@ -85,7 +89,7 @@ hscheats_keys = {"alt", "S"}
 hsaclock_keys = {"alt", "T"}
 
 -- Type the URL and title of the frontmost web page open in Google Chrome or Safari.
-hstype_keys = {"alt", "V"}
+-- hstype_keys = {"alt", "V"}
 
 -- Toggle Hammerspoon console
 hsconsole_keys = {"alt", "Z"}
